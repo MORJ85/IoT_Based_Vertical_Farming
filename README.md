@@ -514,7 +514,9 @@ and:
 ```
 
 ## Important Settings
-Inside camera_run.py, the most important settings are:
+
+Inside `camera_run.py`, the most important settings are:
+
 ```python
 SAVE_EVERY_SEC = 3600
 MASK_WARMUP_SEC = 120
@@ -533,6 +535,7 @@ MASK_WARMUP_SEC = 30
 **For Final Experiment**
 
 For hourly data collection:
+
 ```python
 SAVE_EVERY_SEC = 3600
 MASK_WARMUP_SEC = 120
@@ -545,7 +548,7 @@ A .gitignore file exists to exclude generated data.
 This keeps the repository clean and prevents large image or data files from being uploaded.
 
 
-##Future Development
+## Future Development
 Possible future improvements include:
 
 - More robust canopy segmentation
@@ -563,7 +566,7 @@ Possible future improvements include:
 - Automated stress alerts
 
 
-##Scientific Notes
+## Scientific Notes
 
 The current system provides relative thermal and environmental indicators related to plant transpiration and stress.
 
