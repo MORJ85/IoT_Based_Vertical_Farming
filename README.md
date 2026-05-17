@@ -115,6 +115,7 @@ Repeat every hour
 ```
 
 **Canopy Mask Creation**
+
 At the beginning of the experiment, the script collects thermal frames for a short warmup period.
 
 The default settings are:
