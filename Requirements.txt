@@ -1,0 +1,9 @@
+- numpy
+- pandas
+- matplotlib
+- pillow
+- tifffile
+- flirpy
+- luma.oled
+- adafruit-blinka
+- adafruit-circuitpython-busdevice
