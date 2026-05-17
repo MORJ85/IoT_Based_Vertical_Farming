@@ -1,3 +1,4 @@
+<img width="379" height="379" alt="image" src="https://github.com/user-attachments/assets/ade23e7f-2afc-4d34-8cfd-8de61c235596" />
 
 # Canopy Thermal Logger and Greenhouse Data Analysis Pipeline
 
