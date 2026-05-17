@@ -370,7 +370,6 @@ VPD is important because it describes the atmospheric demand for water vapor. Hi
 
 Canopy Temperature Difference is calculated as:
 
-````md
 ```python
 CTD = Canopy Temperature - Air Temperature
 ```
