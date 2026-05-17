@@ -155,7 +155,7 @@ This file contains the raw radiometric thermal frame.
 
 Example:
 
-'raw_tiff/thermal_raw_YYYYMMDD_HHMMSS.tiff'
+`raw_tiff/thermal_raw_YYYYMMDD_HHMMSS.tiff`
 
 **2. Thermal PNG**
 
