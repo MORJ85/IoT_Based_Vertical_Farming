@@ -87,7 +87,7 @@ The current simplified code focuses on:
 - HDC1080 air temperature and humidity sensing
 
 **Data Collection Workflow**
-
+```text
 The camera run workflow is: 
 Start program
 ↓
@@ -112,6 +112,7 @@ Save CSV row
 Save TIFF and PNG images
 ↓
 Repeat every hour
+```
 
 
     **Canopy Mask Creation**
