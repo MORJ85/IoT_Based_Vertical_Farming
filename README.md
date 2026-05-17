@@ -43,6 +43,7 @@ canopy-thermal-logger/
 ```
 
 ## File Descriptions
+
 | File | Description |
 |------|-------------|
 | `camera_run.py` | Runs the thermal camera and environmental sensor, creates canopy mask, saves hourly data and images |
@@ -52,6 +53,7 @@ canopy-thermal-logger/
 | `.gitignore` | Prevents large data files and outputs from being uploaded to GitHub |
 
 ### 1. Camera Run
+
 The file 'camera_run.py' is responsible for collecting raw data from the hardware sensors.
 
 **Main Tasks**
@@ -148,38 +150,43 @@ For each hourly record, the script saves:
 
 
 **1. Raw Thermal TIFF**
+
 This file contains the raw radiometric thermal frame.
 
 Example:
-raw_tiff/thermal_raw_YYYYMMDD_HHMMSS.tiff
+'raw_tiff/thermal_raw_YYYYMMDD_HHMMSS.tiff'
 
 **2. Thermal PNG**
+
 This is a colorized thermal image for visual inspection.
 
 Example:
-png/thermal_color_YYYYMMDD_HHMMSS.png
+'png/thermal_color_YYYYMMDD_HHMMSS.png'
 
 **3. Canopy Overlay PNG**
+
 This image shows the detected canopy region overlaid on the thermal image.
 
 Example:
-png/thermal_canopy_overlay_YYYYMMDD_HHMMSS.png
+'png/thermal_canopy_overlay_YYYYMMDD_HHMMSS.png'
 
 **4. Canopy Mask PNG**
+
 This image shows the binary canopy mask.
 
 Example:
-png/canopy_mask_YYYYMMDD_HHMMSS.png
+'png/canopy_mask_YYYYMMDD_HHMMSS.png'
 
 
 **Output Folder Structure**
 
 Each time the program runs, it creates a new run folder:
 
-plant_thermal_hourly/run_YYYY-MM-DD_HH-MM-SS/
+'plant_thermal_hourly/run_YYYY-MM-DD_HH-MM-SS/'
 
 Inside each run folder:
 
+```text
 plant_thermal_hourly/
 └── run_YYYY-MM-DD_HH-MM-SS/
     ├── hourly_canopy_data_YYYY-MM-DD_HH-MM-SS.csv
@@ -195,6 +202,7 @@ plant_thermal_hourly/
     │   └── startup_canopy_overlay_YYYYMMDD_HHMMSS.png
     └── logs/
         └── logger.log
+```
 
 **CSV Output**
 The main CSV file contains hourly records.
