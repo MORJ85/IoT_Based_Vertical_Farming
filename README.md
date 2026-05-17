@@ -545,7 +545,7 @@ A .gitignore file exists to exclude generated data.
 This keeps the repository clean and prevents large image or data files from being uploaded.
 
 
-## Future Development
+##Future Development
 Possible future improvements include:
 
 - More robust canopy segmentation
@@ -563,7 +563,7 @@ Possible future improvements include:
 - Automated stress alerts
 
 
-## Scientific Notes
+##Scientific Notes
 
 The current system provides relative thermal and environmental indicators related to plant transpiration and stress.
 
