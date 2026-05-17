@@ -40,6 +40,7 @@ canopy-thermal-logger/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## File Descriptions
 | File | Description |
