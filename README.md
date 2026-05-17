@@ -442,7 +442,8 @@ Overall Stress Flag = 1 if any stress flag is active
 This is a simple indicator for quick screening. It should be validated with crop-specific observations and experimental data.
 
 
-## Installation
+##Installation
+
 Python Packages
 
 Install the required packages:
@@ -453,12 +454,14 @@ pip install numpy pandas matplotlib pillow tifffile flirpy luma.oled adafruit-bl
 ## System Packages
 
 For FLIR/PureThermal support, the following Linux packages may be required:
+
 ```bash
 sudo apt update
 sudo apt install v4l-utils uvcdynctrl    
 ```
 
-## Running the Project
+##Running the Project
+
 **Step 1: Run the Camera Logger**
 
 To start collecting data:
