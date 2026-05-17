@@ -161,7 +161,7 @@ Example:
 This is a colorized thermal image for visual inspection.
 
 Example:
-'png/thermal_color_YYYYMMDD_HHMMSS.png'
+"png/thermal_color_YYYYMMDD_HHMMSS.png"
 
 **3. Canopy Overlay PNG**
 
