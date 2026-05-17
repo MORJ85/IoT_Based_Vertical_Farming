@@ -163,28 +163,30 @@ This is a colorized thermal image for visual inspection.
 
 Example:
 
-"png/thermal_color_YYYYMMDD_HHMMSS.png"
+`png/thermal_color_YYYYMMDD_HHMMSS.png`
 
 **3. Canopy Overlay PNG**
 
 This image shows the detected canopy region overlaid on the thermal image.
 
 Example:
-'png/thermal_canopy_overlay_YYYYMMDD_HHMMSS.png'
+
+`png/thermal_canopy_overlay_YYYYMMDD_HHMMSS.png`
 
 **4. Canopy Mask PNG**
 
 This image shows the binary canopy mask.
 
 Example:
-'png/canopy_mask_YYYYMMDD_HHMMSS.png'
+
+`png/canopy_mask_YYYYMMDD_HHMMSS.png`
 
 
 **Output Folder Structure**
 
 Each time the program runs, it creates a new run folder:
 
-'plant_thermal_hourly/run_YYYY-MM-DD_HH-MM-SS/'
+`plant_thermal_hourly/run_YYYY-MM-DD_HH-MM-SS/`
 
 Inside each run folder:
 
@@ -210,7 +212,8 @@ plant_thermal_hourly/
 The main CSV file contains hourly records.
 
 Example file:
-hourly_canopy_data_YYYY-MM-DD_HH-MM-SS.csv   
+
+`hourly_canopy_data_YYYY-MM-DD_HH-MM-SS.csv` 
 
  **CSV Columns**
 
