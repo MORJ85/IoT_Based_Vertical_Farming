@@ -460,7 +460,7 @@ sudo apt update
 sudo apt install v4l-utils uvcdynctrl    
 ```
 
-##Running the Project
+## Running the Project
 
 **Step 1: Run the Camera Logger**
 
