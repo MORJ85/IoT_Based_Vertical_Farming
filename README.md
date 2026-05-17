@@ -33,6 +33,7 @@ The main goal of this project is to develop a sensing and analysis pipeline for:
 
 The recommended project structure is:
 
+```text
 canopy-thermal-logger/
 ├── camera_run.py
 ├── data_analysis.py
