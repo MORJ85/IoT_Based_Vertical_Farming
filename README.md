@@ -54,7 +54,7 @@ canopy-thermal-logger/
 
 ### 1. Camera Run
 
-The file 'camera_run.py' is responsible for collecting raw data from the hardware sensors.
+The file `camera_run.py` is responsible for collecting raw data from the hardware sensors.
 
 **Main Tasks**
 
@@ -253,7 +253,7 @@ The CSV contains the following columns:
 
 ### 2. Data Analysis
 
-The file 'data_analysis.py' is used after data collection.
+The file `data_analysis.py` is used after data collection.
 
 It reads the saved CSV file, performs quality control, calculates summary statistics, creates plots, and adds simple stress indicators.
 
@@ -281,6 +281,7 @@ plant_thermal_hourly/run_YYYY-MM-DD_HH-MM-SS/analysis_outputs/
 
 The output files include:
 
+```text
 analysis_outputs/
 ├── clean_analyzed_data.csv
 ├── summary.csv
@@ -292,6 +293,7 @@ analysis_outputs/
 ├── ctd.png
 ├── et_index.png
 └── canopy_cover.png
+```
 
 **Cleaned Data**
 
