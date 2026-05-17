@@ -344,6 +344,7 @@ It includes daily statistics for:
 This is useful for comparing plant response across days.
 
 **Thermal and Environmental Indicators**
+
 **1. Vapor Pressure Deficit**
 
 Vapor Pressure Deficit, or VPD, is calculated from air temperature and relative humidity.
@@ -365,7 +366,7 @@ Where:
 
 VPD is important because it describes the atmospheric demand for water vapor. High VPD means the air is dry and the plant may lose water faster through transpiration.    
 
-** 2. Canopy Temperature Difference**
+**2. Canopy Temperature Difference**
 
 Canopy Temperature Difference is calculated as:
 
