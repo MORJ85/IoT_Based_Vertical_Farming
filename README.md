@@ -384,7 +384,6 @@ Interpretation:
 
 Canopy cooling is calculated as:
 
-````md
 ```python
 Canopy Cooling = Air Temperature - Canopy Temperature
 ```
@@ -397,7 +396,7 @@ Interpretation:
 **4. Relative ET Proxy Index**
 
 The current implementation calculates a relative evapotranspiration proxy index:
-````md
+
 ```python
 ET Index = max(0, Canopy Cooling) * VPD
 ```
@@ -413,14 +412,14 @@ A higher value may indicate stronger evaporative cooling and transpiration activ
 The analysis script adds simple stress-risk flags.
 
 **High VPD Risk**
-````md
+
 ```python
 High VPD Risk = 1 if VPD >= 2.0 kPa
 ```
 High VPD may indicate dry atmospheric conditions and increased plant water demand.
 
 **Heat Stress Risk**
-````md
+
 ```python
 Heat Stress Risk = 1 if Canopy Avg Temp >= 35.0 C
 ```
@@ -428,7 +427,7 @@ Heat Stress Risk = 1 if Canopy Avg Temp >= 35.0 C
 This threshold can be adjusted depending on crop type and experimental conditions.
 
 **Low Cooling Risk**
-````md
+
 ```python
 Low Cooling Risk = 1 if Canopy Cooling <= 0.0 C
 ```
@@ -437,7 +436,6 @@ If the canopy is not cooler than the air, this may indicate reduced transpiratio
 
 **Overall Stress Flag**
 
-````md
 ```python
 Overall Stress Flag = 1 if any stress flag is active
 
