@@ -584,7 +584,7 @@ Therefore, the current implementation is best described as a canopy thermal moni
 
 ## Ownership and Development
 
-This project was developed for **UrbanGreenTech**, a company founded by **Reza Jarkeh** in **The Netherlands**
+This project was developed for **UrbanGreenTech**, a startup founded by **Reza Jarkeh** in **The Netherlands**
 
 The code is part of UrbanGreenTech's greenhouse and vertical farming technology development, focusing on canopy thermal monitoring, microclimate sensing, and data-driven decision support for sustainable controlled-environment agriculture.
 
